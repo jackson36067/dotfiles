@@ -1,0 +1,8 @@
+[[manager.prepend_keymap]]
+on = ["r"]
+exec = "rename"
+desc = "Rename a file or directory"
+[[manager.prepend_keymap]]
+on = ["g", "o"]
+run = "cd ~/Code"
+desc = "Cd to ~/Code"
